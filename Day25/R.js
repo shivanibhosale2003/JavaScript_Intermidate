@@ -13,3 +13,11 @@ function isAdult(age){
 }
 console.log(isAdult(45));
 
+function addSum(n){
+    let cal=0;
+    for(let i=1;i<=n;i++){
+        cal+=i;
+    }
+    return cal;
+}
+

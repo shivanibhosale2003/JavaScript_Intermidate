@@ -8,4 +8,23 @@ const sqe= n =>{
 }
 
 
-const mul = (a,b) => a+b;
+const mul = (a,b) => (
+a*b
+);
+
+//setTimeOut
+
+
+console.log("shivani");
+ setTimeout(() => {
+    console.log("lovers");
+    
+ },4000);
+console.log("unmesh");
+
+//setinterval
+
+ let id=setInterval(() => {
+    console.log("lovers");
+    
+ },2000);

@@ -4,6 +4,3 @@ function sum (a,b=10){
 
 sum(3);
 
-//spread
-
-console.log(..."shivani");

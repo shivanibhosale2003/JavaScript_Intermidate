@@ -1,13 +1,26 @@
-let get=document.getElementById("mainImg");
+//let get=document.getElementById("mainImg");
 
-console.log(get);
-
-
-let gte2=document.getElementsByClassName("oldImg");
-
-console.log(gte2[2]);
+//console.log(get);
 
 
-let g=document.getElementsByTagName("p");
+//let gte2=document.getElementsByClassName("oldImg");
 
-console.log(g);
+//console.log(gte2[2]);
+
+
+//let g=document.getElementsByTagName("p");
+
+//console.log(g);
+
+
+//selector
+
+console.dir(document.querySelectorAll("h"));
+
+console.dir(document.querySelector("p"));
+
+console.dir(document.querySelector("#description"));
+
+console.dir(document.querySelector(".boxLink"));
+
+console.dir(document.querySelector("div li"));

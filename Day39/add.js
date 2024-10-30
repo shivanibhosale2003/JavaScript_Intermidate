@@ -20,3 +20,15 @@ let blue=Math.floor(Math.random() * 255);
 let color=`rgb(${red},${green},${blue})`;
 return color;
 };
+
+
+let p=document.querySelector("p");
+p.addEventListener("click",function(){
+console.log("para was clicked");
+});
+
+
+let box=document.querySelector(".box");
+box.onmouseenter=function () {
+   console.log("box was clicked");
+};

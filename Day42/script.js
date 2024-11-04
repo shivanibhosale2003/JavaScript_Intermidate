@@ -1,3 +1,4 @@
+//cahnge event
 let form=document.querySelector("form");
 
 form.addEventListener("submit",function(event){
@@ -7,7 +8,7 @@ event.preventDefault();
 let user=document.querySelector("#user");
 
 user.addEventListener("change",function(){
-console.log("input changed");
+console.log("change event");
 console.log("change value= ",user.value);
 
 });
@@ -17,5 +18,12 @@ console.log("change value= ",user.value);
 //user.addEventListener("change",function(){
 //console.log("pass changed");
 //console.log("change pass= ", pass.value);
-
 //});
+
+//input event
+
+user.addEventListener("input",function(){
+    console.log("input event");
+    console.log("change value= ",user.value);
+
+});

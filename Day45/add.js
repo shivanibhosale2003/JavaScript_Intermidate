@@ -9,6 +9,20 @@ function save(data,success,failure){
 
 save("Shivani Bhosale",()=>{
     console.log("Success:your data was save");
+    save("hello world",()=>{
+        console.log("success2: data2 saved");
+        save("xyz",()=>{
+            console.log("success3: data3 saved");
+            
+        },()=>{
+            console.log("failure3: weak connection");
+            
+        })
+        
+    },()=>{
+        console.log("failure2:weak connection");
+        
+    })
 },()=>{
     console.log("Failure:weak connection");
     

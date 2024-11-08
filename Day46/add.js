@@ -1,10 +1,10 @@
 function save(data){
-return new Promise((success,failure) => {
+return new Promise((resolve,reject) => {
     let internetSpeed=Math.floor(Math.random() * 10)+1;
     if(internetSpeed > 4){
-        success("Success: data was saved");
+        resolve("Success: data was saved");
     }else{
-        failure("weak connection");
+        reject("weak connection");
     }
 });
 }

@@ -12,6 +12,14 @@ return new Promise((resolve,reject) => {
 save("apna college")
 .then(()=>{
     console.log("promise resolved");
+    return save("abcd");
+})
+.then(()=>{
+    console.log("promise2");
+    return save("xyz");
+})
+.then(()=>{
+    console.log("promise3");
 })
 .catch(()=>{
     console.log("promise rejected");

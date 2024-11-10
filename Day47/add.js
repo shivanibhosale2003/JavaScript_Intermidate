@@ -1,4 +1,16 @@
-const p=Promise.resolve([1,2,3,4]);
-p.then((v)=>{
-    console.log(v[3]);
-});
+//let large=0;
+
+//function isGreaterThanFive(num) {
+    //if(num==large){
+     //   console.log("yes");
+   // }else{
+    //    console.log("no");
+  //  }
+//}
+//isGreaterThanFive(num);
+
+
+
+function isGreaterThanFive(num) {
+    return num>5 ? "yes":"no";
+}

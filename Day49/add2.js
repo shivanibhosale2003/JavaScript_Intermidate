@@ -12,3 +12,8 @@ greet()
     console.log("promise with rejected with error:",err);
     
 });
+
+
+let demo= async() => {
+    return 5;
+};

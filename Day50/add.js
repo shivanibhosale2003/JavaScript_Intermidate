@@ -1,5 +1,5 @@
  async function greet(){
-    throw "weak connection";
+    //throw "weak connection";
     return "SHIVANI";
 }
 
